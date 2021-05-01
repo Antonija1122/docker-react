@@ -1,0 +1,42 @@
+0 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'start' ]
+1 info using npm@7.10.0
+2 info using node@v16.0.0
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/home/node/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/home/node/.npm-global/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 11ms
+17 timing npm:load:configload Completed in 11ms
+18 timing npm:load:setTitle Completed in 0ms
+19 timing npm:load:setupLog Completed in 0ms
+20 timing npm:load:cleanupLog Completed in 4ms
+21 timing npm:load:configScope Completed in 0ms
+22 timing npm:load:projectScope Completed in 1ms
+23 timing npm:load Completed in 19ms
+24 timing config:load:flatten Completed in 4ms
+25 timing command:run-script Completed in 103201ms
+26 verbose stack Error: command failed
+26 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/index.js:64:27)
+26 verbose stack     at ChildProcess.emit (node:events:365:28)
+26 verbose stack     at maybeClose (node:internal/child_process:1067:16)
+26 verbose stack     at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)
+27 verbose pkgid frontend@0.1.0
+28 verbose cwd /home/node
+29 verbose Linux 5.4.0-72-generic
+30 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "start"
+31 verbose node v16.0.0
+32 verbose npm  v7.10.0
+33 error path /home/node
+34 error command failed
+35 error signal SIGTERM
+36 error command sh -c react-scripts start
+37 verbose exit 1
