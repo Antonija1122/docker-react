@@ -8,5 +8,5 @@ before_install:
   - docker run acesic/docker-react
 
 script:
-  - docker run -e CI=true acesic/docker-react npm run test
+  - docker run acesic/docker-react npm run test -- --coverage
 
